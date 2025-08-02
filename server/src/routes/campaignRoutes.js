@@ -1,7 +1,7 @@
 import express from "express";
-import Campaign from "../models/Campaign.js";
+import Campaign from "../models/campaign.js";
 import { runCampaign, handleUserEvent, getUserState, getCampaignUserStates } from "../services/campaignRunner.js";
-import EmailEvent from "../models/EmailEvent.js";
+import EmailEvent from "../models/emailEvent.js";
 
 const router = express.Router();
 

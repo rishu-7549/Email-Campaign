@@ -1,7 +1,7 @@
 import { sendEmail } from "./emailService.js";
 import { scheduleTask } from "./scheduler.js";
-import EmailEvent from "../models/EmailEvent.js";
-import Campaign from "../models/Campaign.js";
+import EmailEvent from "../models/emailEvent.js";
+import Campaign from "../models/campaign.js";
 
 // User state management - store in memory for now, but could be moved to database
 const userStates = new Map();

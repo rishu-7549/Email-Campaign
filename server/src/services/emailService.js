@@ -1,6 +1,6 @@
 import nodemailer from "nodemailer";
 import { v4 as uuidv4 } from "uuid";
-import EmailEvent from "../models/EmailEvent.js";
+import EmailEvent from "../models/emailEvent.js";
 
 export const sendEmail = async (to, subject, text, campaignId) => {
   try {
